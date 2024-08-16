@@ -1,11 +1,14 @@
 COMMIT;
 
-SELECT * FROM employee;
-
 INSERT INTO employee(emp_id, name, salary) VALUES('e101', '김사원', 3000000);
-INSERT INTO employee(emp_id, name, salary) VALUES('e102', '이사원', 3500000);
+INSERT INTO employee(emp_id, name, salary) VALUES('e102', '박대리', 3500000);
 INSERT INTO employee(emp_id, name, salary) VALUES('e103', '박이사', 300000000);
 INSERT INTO employee(emp_id, name) VALUES('e104', '고신입');
+
+
+
+
+SELECT * FROM employee;
 
 
 

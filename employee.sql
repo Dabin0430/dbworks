@@ -1,3 +1,5 @@
+SELECT * FROM	employee;
+
 CREATE TABLE employee(
 	emp_id	TEXT PRIMARY KEY,
 	name	Text NOT NULL,
@@ -15,4 +17,4 @@ DDL 언어 - CREATE TABLE 테이블 이름(칼럼이름 자료형)
 
 
 -- DML 언어(검색- SELECT * FROM 테이블이름)
-SELECT * FROM	employee;
+
